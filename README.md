@@ -1,5 +1,9 @@
 # Anti-Bodyblock
 
+THIS IS AN OLD VERSION OF [FRUIT'S MOD](https://github.com/soler91/Anti-Bodyblock) TO WORK ON [MENMA'S TERA](https://menmastera.com/).
+
+Below is Fruit's description unedited:
+
 Tired of being bodyblocked by your party members ?
 Well use this thing.
 

@@ -6,13 +6,15 @@ module.exports = function antiBodyBlock(bigmeme) {
   let interval = null;
   let enabled = true;
 
-  partyObj.raid = true;
+  partyObj.unk4 = 1;
 
   const removeBodyBlock = () => {
     for (let i = partyMembers.values(), step; !(step = i.next()).done; ) {
-      partyObj.gameId = step.value;
-      partyObj.partyId   = cache.partyId;
-      bigmeme.send("S_PARTY_INFO", 2, partyObj);
+      partyObj.leader = step.value;
+      partyObj.unk1   = cache.unk1;
+      partyObj.unk2   = cache.unk2;
+      partyObj.unk3   = cache.unk3;
+      bigmeme.send("S_PARTY_INFO", 1, partyObj);
     }
   };
   
@@ -33,8 +35,8 @@ module.exports = function antiBodyBlock(bigmeme) {
     bigmeme.command.message("Anti-bodyblock enabled: " + enabled);
   });
 
-  bigmeme.hook("S_PARTY_INFO", 2, evt => { Object.assign(cache, evt); });
-  bigmeme.hook("S_PARTY_MEMBER_LIST", 9, evt => {
+  bigmeme.hook("S_PARTY_INFO", 1, evt => { Object.assign(cache, evt); });
+  bigmeme.hook("S_PARTY_MEMBER_LIST", 7, evt => {
     partyMembers.clear();
     for (let i = 0, arr = evt.members, len = arr.length; i < len; ++i) {
       const member = arr[i];
