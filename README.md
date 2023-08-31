@@ -18,6 +18,5 @@ Barely tested mod.
 
 want to support my awful mods?
 
-https://ko-fi.com/G2G372NE
+[<img src="https://media.discordapp.net/attachments/1141016274160328756/1146849211510431794/19_DONATE.png" width="300"/>](https://ko-fi.com/soler91)
 
-can't even make a proper button
