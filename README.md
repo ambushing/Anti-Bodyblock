@@ -18,5 +18,5 @@ Barely tested mod.
 
 want to support my awful mods?
 
-[<img src="https://media.discordapp.net/attachments/1141016274160328756/1146849211510431794/19_DONATE.png" width="200"/>](https://ko-fi.com/soler91)
+[<img src="https://media.discordapp.net/attachments/1141016274160328756/1146849211510431794/19_DONATE.png" width="300"/>](https://ko-fi.com/soler91)
 
